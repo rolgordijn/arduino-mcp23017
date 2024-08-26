@@ -10,6 +10,10 @@ MCP23017::MCP23017(TwoWire& bus) {
 	_bus = &bus;
 }
 
+
+MCP23017::MCP23017() {}
+
+
 MCP23017::~MCP23017() {}
 
 void MCP23017::init()

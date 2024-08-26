@@ -93,6 +93,7 @@ public:
 	 * MCP23017_I2C_ADDRESS default.
 	 */
 	MCP23017(TwoWire& bus = Wire);
+	MCP23017();
 	~MCP23017();
 #ifdef _DEBUG
 	void debug();
